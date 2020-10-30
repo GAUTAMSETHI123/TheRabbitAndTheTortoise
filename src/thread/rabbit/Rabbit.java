@@ -48,6 +48,7 @@ public class Rabbit implements Runnable {
                 System.err.println("The rabbit has lost the path!");
             }
         }
+
         JOptionPane.showConfirmDialog(
                 null,
                 "The Rabbit has completed the race!",
